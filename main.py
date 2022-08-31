@@ -33,9 +33,9 @@ db.execute(create_query)
 # db.execute('INSERT INTO people VALUES(1002, "Peyman Haghighi", "09124569988", "SUPPORT")')
 
 today = datetime.date.today()
-# db.execute('INSERT INTO salary VALUES(1001, 15000, "{}")'.format(today))
-# db.execute('INSERT INTO salary VALUES(1002, 17500, "{}")'.format(today))
-# db.execute('INSERT INTO salary VALUES(1003, 18000, "{}")'.format(today))
+db.execute('INSERT INTO salary VALUES(1001, 15000, "{}")'.format(today))
+db.execute('INSERT INTO salary VALUES(1002, 17500, "{}")'.format(today))
+db.execute('INSERT INTO salary VALUES(1003, 18000, "{}")'.format(today))
 
 
 # Delete Data
@@ -44,7 +44,7 @@ today = datetime.date.today()
 # db.execute('DELETE FROM salary WHERE id=1003')
 
 # update Data
-db.execute('UPDATE salary SET amount=25000 WHERE id=1002')
+# db.execute('UPDATE salary SET amount=25000 WHERE id=1002')
 
 # after do sth in your database u should commit and close your db
 db.commit()
