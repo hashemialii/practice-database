@@ -21,8 +21,11 @@ create_query = 'CREATE TABLE IF NOT EXISTS salary (' \
 db.execute(create_query)
 
 # search ==> sqlite insert
-db.execute('INSERT INTO people (id, name, phone, department) '
-           'VALUES (1001, "Ali Hashemi", "09121234567", "IT")')
+
+# db.execute('INSERT INTO people (id, name, phone, department) '
+#            'VALUES(1001, "Ali Hashemi", "09121234567", "IT")')
+
+db.execute('INSERT INTO people VALUES(1002, "Peyman Haghighi", "09124569988", "SUPPORT")')
 
 
 # after do sth in your database u should commit and close your db
