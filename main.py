@@ -4,6 +4,7 @@ import datetime
 
 db = sqlite3.connect('employee.sqlite')
 
+
 # search ==> sqlite python Create table
 
 # Create table
