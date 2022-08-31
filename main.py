@@ -6,7 +6,7 @@ db = sqlite3.connect('employee.sqlite')
 
 # search ==> sqlite python Create table
 
-# Create table:
+# Create table
 # create_query = 'CREATE TABLE IF NOT EXISTS people (' \
 #                'id INTEGER PRIMARY KEY, ' \
 #                'name TEXT NOT NULL, ' \
@@ -24,10 +24,11 @@ db.execute(create_query)
 
 # search ==> sqlite insert
 
+# Create Record
 # db.execute('INSERT INTO people (id, name, phone, department) '
 #            'VALUES(1001, "Ali Hashemi", "09121234567", "IT")')
 
-
+# Create Record
 # db.execute('INSERT INTO people VALUES(1002, "Peyman Haghighi", "09124569988", "SUPPORT")')
 
 today = datetime.date.today()
