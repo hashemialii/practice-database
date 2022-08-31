@@ -34,6 +34,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
+      <object connection-id="f282321a-33df-48f9-8df7-5059e6f78328" object-ref="schemas/main/tables/salary" />
       <object connection-id="f282321a-33df-48f9-8df7-5059e6f78328" object-ref="schemas/main/tables/people" />
     </open-files>
   </component>
@@ -41,6 +42,7 @@
     <connection id="f282321a-33df-48f9-8df7-5059e6f78328" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="f282321a-33df-48f9-8df7-5059e6f78328" dataset="main.salary" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="f282321a-33df-48f9-8df7-5059e6f78328" dataset="main.people" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
